@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "804591615857",
+    "project_id": "mypartner-e086c",
+    "storage_bucket": "mypartner-e086c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804591615857:android:35df02644376c20cdd40d0",
+        "android_client_info": {
+          "package_name": "com.sleipnir.mypartner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_sgCoqLPG-7FS48HmUezwUQKYnVgRiUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

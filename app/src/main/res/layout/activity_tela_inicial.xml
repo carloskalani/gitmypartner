@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/main"
+    android:background="@drawable/background_degrade"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.telainicial.TelaInicial">
+
+    <TextView
+        android:id="@+id/text_arrow_back"
+        style="@style/Arrow_Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/text_arrow_forward"
+        style="@style/Arrow_Forward"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/text_msg_ola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginTop="36dp"
+        android:padding="15dp"
+        android:text="@string/msg_ola"
+        android:textColor="@color/blue_dark3"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagem_telalogin"
+        android:layout_width="255dp"
+        android:layout_height="179dp"
+        android:layout_margin="25dp"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/carlos_01"
+        android:contentDescription="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_msg_ola" />
+
+    <View
+        android:id="@+id/containerHum"
+        style="@style/ContainerTelas"
+        android:layout_width="391dp"
+        android:layout_height="385dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/container_hum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagem_telalogin" />
+
+    <TextView
+        android:id="@+id/text_entrarlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="03dp"
+        android:text="@string/text_entrarLogin"
+        android:textColor="@color/blue_300"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/containerHum" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        style="@style/Edit_Text"
+        android:layout_width="271dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:autofillHints="username"
+        android:background="@drawable/edit_text"
+        android:gravity="center"
+        android:hint="@string/hint_email"
+        android:importantForAutofill="yes"
+        android:inputType="textEmailAddress"
+        android:maxLength="11"
+        android:maxLines="1"
+        android:textColorHint="@color/blue_dark2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_entrarlogin" />
+
+    <EditText
+        android:id="@+id/edit_senha"
+        style="@style/Edit_Text"
+        android:layout_width="258dp"
+        android:layout_height="52dp"
+        android:layout_margin="35dp"
+        android:autofillHints="username"
+        android:background="@drawable/edit_text"
+        android:gravity="center"
+        android:hint="@string/hint_senha"
+        android:importantForAutofill="yes"
+        android:inputType="number"
+        android:maxLines="1"
+        android:textColorHint="@color/blue_dark2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_email" />
+
+    <TextView
+        android:id="@+id/text_esqueceu_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:padding="03dp"
+        android:text="@string/text_esqueceuSenha"
+        android:textColor="@color/blue_300"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_senha" />
+
+    <TextView
+        android:id="@+id/text_criar_conta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:padding="03dp"
+        android:text="@string/text_criarConta"
+        android:textColor="@color/blue_300"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_senha" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_entrar"
+        style="@style/Edit_Text"
+        android:layout_width="277dp"
+        android:layout_height="54dp"
+        android:layout_margin="35dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/edit_textentrar"
+        android:gravity="center"
+        android:hint="@string/hint_entrar"
+        android:maxLines="1"
+        android:textColorHint="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_esqueceu_senha" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

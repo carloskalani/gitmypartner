@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">MyPartner</string>
+
+    <string name="msg_ola">Olá,bem vindo.</string>
+
+    <string name="hint_entrar">Enter</string>
+    <string name="hint_cadastrar">Cadastrar</string>
+    <string name="hint_senha">Senha</string>
+    <string name="hint_confirmasenha">Confirma senha</string>
+
+    <string name="hint_nome">Nome</string>
+    <string name="hint_cpf">CPF</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_telefone">Telefone / Celular</string>
+    <string name="hint_dataNascimento">Dt Nascimento</string>
+    <string name="hint_sexo">Sexo</string>
+    <string name="hint_pet">Tem pet?</string>
+    <string name="hint_petqtde">Quantos?</string>
+
+    <string name="hint_cep">Cep</string>
+    <string name="hint_endereco">Endereço (rua, avenida etc)</string>
+    <string name="hint_numero">Número</string>
+    <string name="hint_bairro">Bairro</string>
+    <string name="hint_cidade">Cidade</string>
+    <string name="hint_estado">Estado</string>
+    <string name="hint_complemento">Complemento</string>
+
+    <string name="hint_tabClientes">Clientes</string>
+    <string name="hint_tabProdutos">Produtos</string>
+    <string name="hint_tabVendas">Vendas</string>
+    <string name="hint_tabResumos">Resumos</string>
+
+
+    <string name="hint_ofertas">Ofertas</string>
+    <string name="hint_informativos">Informativos</string>
+    <string name="hint_estatisticas">Estatísticas</string>
+    <string name="hint_sairaplicativo">Sair do Apliativo</string>
+
+
+    <string name="text_logradouro">Logradouro:</string>
+    <string name="text_meusDados">Meus Dados</string>
+    <string name="text_endereco">Endereço</string>
+
+    <string name="text_meusDadosSeguranca">Meus Dados Segurança</string>
+    <string name="text_alterarSenha">Alterar senha</string>
+    <string name="text_esqueceuSenha">Esqueceu a senha?</string>
+    <string name="text_criarConta">Cria conta</string>
+    <string name="text_apagarMeuCadastro">Apagar Cadastro</string>
+    <string name="text_entrarLogin">Login</string>
+    <string name="text_tabelas">Sys-Repositórios</string>
+    <string name="text_tabClientes">Clientes</string>
+    <string name="text_tabProdutos">Produtos</string>
+    <string name="text_tabVendas">Vendas</string>
+    <string name="text_tabResumos">Resumos</string>
+
+</resources>

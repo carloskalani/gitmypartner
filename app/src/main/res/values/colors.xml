@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    // gradiente
+
+    <color name="blue">#031756</color>
+    <color name="blue_light">#4567BC</color>
+    <color name="blue_superlight">#8CA7EA</color>
+
+    <color name="blue_300">#06508B</color>
+    <color name="blue_200">#0A71C3</color>
+    <color name="blue_100">#528AB7</color>
+    <color name="blue_dark1">#042A89</color>
+    <color name="blue_dark2">#113CD7</color>
+    <color name="blue_dark3">#031B76</color>
+
+    <color name="gray_light">#C7C3C3</color>
+    <color name="gray_london">#928E8E</color>
+
+    <color name="purple_300">#702AEC</color>
+    <color name="purple_200">#985EFF</color>
+    <color name="purple_100">#A583E3</color>
+
+    <color name="teal_300">#FF018786</color>
+    <color name="teal_200">#FF03DA</color>
+
+    <color name="red_200">#DF3030</color>
+
+    <color name="orange_300">#F44336</color>
+    <color name="orange_200">#F1685D</color>
+    <color name="orange_100">#F87D75</color>
+
+    <color name="enter_color">#CD5DEF4C</color>
+
+</resources>
